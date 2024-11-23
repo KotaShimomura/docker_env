@@ -22,7 +22,8 @@ git clone git@github.com:KotaShimomura/docker_env.git
 ```
 
 # ライブラリについて
-プロジェクトごとのリポジトリにrequirements.txtを書いてコンテナ内で`pip install -r requirements.txt`をたたいてください．
+プロジェクトごとのリポジトリにrequirements.txtを書いてコンテナ内で`pip install -r requirements.txt`をたたいてください．  
+`Dockerfile`でむやみに`pip install`を叩かないようにしましょう．  
 プロジェクトが終わったら`docekr_env`フォルダをコピーしてそのまま配置しても問題ないです．
 または，`Dockerfile`だけでもリポジトリに置くことを意識してください．
 
